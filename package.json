@@ -1,8 +1,8 @@
 {
   "name": "tripsense-plan",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Backend for TripSense AI",
+  "author": "Aayush",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -28,10 +28,13 @@
     "@supabase/supabase-js": "^2.39.7",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
-    "@nestjs/cli": "^10.0.0"
+    "rimraf": "^5.0.0",
+    "openai": "^4.28.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
-    "typescript": "^5.0.0"
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "@nestjs/cli": "^10.0.0"
   }
 }
